@@ -1,0 +1,23 @@
+body{
+background-color: #acee;
+
+} 
+
+    #title{
+color:red;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 24;
+}   
+   
+.post_title {
+    fonte-size:32px;
+    font-style: italic;
+    color : red;
+}
+.post {
+
+ background : black;
+}
