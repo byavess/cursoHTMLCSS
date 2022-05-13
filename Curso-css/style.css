@@ -1,10 +1,25 @@
 body{
 background-color: #acee;
+font-family: verdana;
+width: 900px;
+margin: auto;
+
 
 } 
+ 
+.foto {
+    border :15px solid green;
+    border-radius: 90px;
+}
 
     #title{
 color:red;
+font-size: 40px;
+text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color:green;
 }
 
 .subtitle {
@@ -16,8 +31,31 @@ color:red;
     fonte-size:32px;
     font-style: italic;
     color : red;
+
 }
 .post {
+    background : rgb(148, 90, 90);
+    padding : 10px;
+    border : 10px dashed orange;
+    margin: 10px;
+    border-radius :50px;
+}
+.post_content {
+    margin : 0 ;
+    margin-bottom : 15px;
+    text-transform: capitalize;
+    text-align: right;
+}
 
- background : black;
+.post_image {
+    margin-bottom:05px;
+   
+}
+.contacts_list {
+    list-style-type: none;
+    padding-left :15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
 }
